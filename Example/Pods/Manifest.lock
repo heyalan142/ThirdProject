@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ThirdProject (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ThirdProject (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ThirdProject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ThirdProject: 1e8e1287790d8bbd2cabb296dbcce70244dbdd60
+
+PODFILE CHECKSUM: b0f5bff7ea64349008277ef369ce9af065273d64
+
+COCOAPODS: 1.11.2

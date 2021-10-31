@@ -1,0 +1,6 @@
+framework module ThirdProject {
+  umbrella header "ThirdProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
